@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="initial-scale = 1.333,minimum-scale = 1.333,maximum-scale = 1.333" />
+        <title>Question Page</title>
+
+        <!-- Flexbox CSS -->
+        <style>
+            html, body {
+                height: 100%;
+                background-color: #e8e8e8;
+            }
+            body {
+                margin: 0;
+            }
+            .flex-container {
+                height: 100%;
+                padding: 0;
+                margin: 0;
+                display: -webkit-box;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .row {
+                width: auto;
+                margin: auto 30px;
+                border: 2px solid #ccc;
+                border-radius: 15px;
+                background: #fff
+            }
+            .flex-item {
+                padding: 5px;
+                margin: 15px;
+                line-height: 50px;
+                color: rgb(34, 33, 33);
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                font-size: 3em;
+                text-align: left;
+            }
+        </style>
+
+        <script src="/libs/qimessaging/2/qimessaging.js"></script>
+        <script src="typed.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        
+        <div class="flex-container">
+            <div class="row"> 
+                <div class="flex-item">
+                    
+                    <span id="typed"></span>
+
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
